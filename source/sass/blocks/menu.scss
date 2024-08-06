@@ -1,0 +1,56 @@
+.menu {
+  z-index: 200;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+
+  display: none;
+  width: 100%;
+  padding: 7px 10px 6px;
+
+  background-color: $color-crusoe;
+
+  @include vp-679 {
+    display: block;
+  }
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__item {
+    margin: 0 20px 0 0;
+
+    &:last-child {
+      margin: 0;
+    }
+  }
+
+  &__link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    svg {
+      flex-shrink: 0;
+
+      width: 21px;
+      height: 21px;
+    }
+  }
+
+  &__label {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+
+    color: $color-default-white;
+
+    transition: opacity $trans-default;
+
+    @include hover-focus {
+      opacity: 0.8;
+    }
+  }
+}

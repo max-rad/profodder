@@ -10,6 +10,10 @@ $color-transparent:             rgba(255, 255, 255, 0);
 // Project palette
 // для нейминга цветов используем https://www.htmlcsscolor.com/hex/334482
 
+$color-dawn:                    #9c9b95;
+$color-charcoal:                #414141;
+$color-crusoe:                  #126133;
+
 $color-black-russian:           #10101d;
 $color-black-russian-2:         #2a2b30;
 $color-jaguar:                  #272733;
@@ -57,6 +61,7 @@ $trans-400-ease-in-out:             0.4s $tf-ease-in-out;
 $vp-320:                            320px;
 $vp-375:                            375px;
 $vp-390:                            390px;
+$vp-680:                            680px;
 $vp-768:                            768px;
 $vp-1024:                           1024px;
 $vp-1200:                           1200px;
