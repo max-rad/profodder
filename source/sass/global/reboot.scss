@@ -15,9 +15,9 @@ html {
   font-style: normal;
   font-weight: 400;
   font-size: $fz-default;
-  line-height: 24px;
-  font-family: $ff-lato;
-  color: $color-default-black;
+  line-height: 25px;
+  font-family: $ff-rubik;
+  color: $color-charcoal;
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -29,11 +29,11 @@ body {
   width: 100%;
   height: 100%;
 
-  background-color: $color-default-white;
+  background-color: $color-ivory;
 }
 
 a {
-  color: $color-default-black;
+  color: $color-charcoal;
   text-decoration: none;
 }
 
